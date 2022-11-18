@@ -9,10 +9,12 @@ const Banner = () => {
   const imageCon = useRef();
 
   const images = [
-    "https://m.media-amazon.com/images/I/61-8rBAD68L._SX3000_.jpg",
+    "https://m.media-amazon.com/images/I/71aQ3u78A3L._SX3000_.jpg",
+    "https://m.media-amazon.com/images/I/71dbxIcDioL._SX3000_.jpg",
+    "https://m.media-amazon.com/images/I/71tIrZqybrL._SX3000_.jpg",
+    "https://m.media-amazon.com/images/I/61TD5JLGhIL._SX3000_.jpg",
     "https://m.media-amazon.com/images/I/61jovjd+f9L._SX3000_.jpg",
     "https://m.media-amazon.com/images/I/61BvxKSpy3L._SX3000_.jpg",
-    "https://m.media-amazon.com/images/I/61TD5JLGhIL._SX3000_.jpg",
     "https://m.media-amazon.com/images/I/71qid7QFWJL._SX3000_.jpg",
   ];
 
@@ -67,23 +69,6 @@ const Banner = () => {
       >
         <FiChevronRight />
       </button>
-
-      <div className={c.dots}>
-        {images.map((dot, index) => (
-          <div
-            onClick={() => setImageCount(index)}
-            style={
-              index === imageCount
-                ? { background: "dodgerblue", transform: "scale(1.3)" }
-                : null
-            }
-            className={c.point}
-            key={uuidv4()}
-          >
-            {" "}
-          </div>
-        ))}
-      </div>
     </div>
   );
 };

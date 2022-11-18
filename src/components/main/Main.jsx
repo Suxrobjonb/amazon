@@ -4,6 +4,9 @@ import { Container } from '../../utils';
 import MainCard from '../main-card/MainCard';
 import allCards from '../../dummy-data.json'
 import { v4 as uuidv4 } from 'uuid';
+import SwiperShop from '../swiperShop/SwiperShop';
+import SwiperCartoon from '../swiperCartoon/SwiperCartoon';
+import SwiperMovie from '../swiperMovie/SwiperMovie';
 
 const Main = () => {
   return (
@@ -33,6 +36,9 @@ const Main = () => {
               )
             }
         </div>
+        <SwiperShop/>
+        <SwiperCartoon/>
+        <SwiperMovie/>
       </main>
     </Container>
   )
