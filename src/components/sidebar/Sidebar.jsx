@@ -5,6 +5,7 @@ import { MdOutlineNavigateNext } from 'react-icons/md'
 import { Link } from "react-router-dom";
 import { SidebarData } from './SidebarData';
 
+
 const Sidebar = ({isSidebarOpen, setIsSidebarOpen}) => {
   return (
     <div className={isSidebarOpen === true ? `${c.sidebar} ${c.active}` : `${c.sidebar}`}>
@@ -12,7 +13,7 @@ const Sidebar = ({isSidebarOpen, setIsSidebarOpen}) => {
         <div className={c.avatarBox}>
           <Link className={c.avatarLink}>
             <RiAccountCircleFill style={{width: "35px", height:"33px", marginRight:"10px"}}/>
-            <h3>Hello, Sardor</h3>
+            <h3>Hello, sign in</h3>
           </Link>
 
           <div className={c.sidebarContent}>

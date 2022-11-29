@@ -1,0 +1,38 @@
+.end__section {
+      padding: 20px 0 20px 0;
+      background-color: #fff;
+}
+
+.section__box {
+      /* display: block; */
+      /* justify-content: center; */
+      border: 1px solid #DDD;
+      border-radius: 5px;
+      padding: 50px 102px;
+      min-width: 940px; 
+}
+
+.link__acount {
+      color: blue;
+}
+
+.top__text {
+      text-align: center;
+      font-size: 13px;
+      margin-bottom: 10px;
+}
+
+.action__inner {
+      margin-left: 470px;
+      text-align: center;
+      padding: 5px 65px;
+      background: #ffc636;
+      /* color: black; */
+      border-radius: 5px;
+}
+
+.bootom__text {
+      text-align: center;
+      font-size: 13px;
+      margin-top: 10px;
+}

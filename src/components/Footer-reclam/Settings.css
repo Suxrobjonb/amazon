@@ -1,0 +1,53 @@
+.settings__box {
+      background-color: #232f3e;
+}
+
+.line {
+      border-top: 1px solid #3a4553;
+}
+
+.img__site {
+      margin-right: 90px;
+}
+
+.new__box {
+      padding: 50px 50px 50px 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+.others {
+      padding: 30px;
+}
+
+.select__lang {
+      padding: 5px;
+      background-color: #232f3e;
+      color: #fff;
+      padding-right: 10px;
+      border-radius: 4px;
+      margin-right: 15px;
+}
+
+.dollar__button {
+      padding: 6px;
+      color: #fff;
+      background-color: #232f3e;
+      border: 1px solid #777;
+      border-radius: 4px;
+      cursor: pointer;
+}
+
+.button__eng {
+      padding: 6px;
+      color: #fff;
+      background-color: #232f3e;
+      border: 1px solid #777;
+      border-radius: 4px;
+      margin-left: 15px;
+      cursor: pointer;
+}
+
+.button__eng:active {
+}

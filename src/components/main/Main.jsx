@@ -7,6 +7,7 @@ import { v4 as uuidv4 } from 'uuid';
 import SwiperShop from '../swiperShop/SwiperShop';
 import SwiperCartoon from '../swiperCartoon/SwiperCartoon';
 import SwiperMovie from '../swiperMovie/SwiperMovie';
+import MainSignin from '../MainSignin/MainSignin';
 
 const Main = () => {
   return (
@@ -39,6 +40,7 @@ const Main = () => {
         <SwiperShop/>
         <SwiperCartoon/>
         <SwiperMovie/>
+        <MainSignin />
       </main>
     </Container>
   )

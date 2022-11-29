@@ -13,7 +13,7 @@ function Header({isSidebarOpen, setIsSidebarOpen}) {
     <div className="header">
       <header>
         <div className="img">
-          <a href=" index.html">
+          <a href="/">
             <img
               src={logo}
               alt=""
@@ -72,8 +72,9 @@ function Header({isSidebarOpen, setIsSidebarOpen}) {
         </form>
         <div className="language">
           <a className="language__link" href="index.html">
-            <img src="" alt="" />
-            <img src="" alt="" />
+            <img src="https://img.icons8.com/color/2x/usa.png" alt="" width={20} height={20} />
+            <span>EN</span>
+            <img src="http://www.w3.org/2000/svg" alt="" width={15} height={15} />
           </a>
         </div>
         <div className="login">
